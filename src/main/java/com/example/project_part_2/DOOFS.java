@@ -16,6 +16,8 @@ public class DOOFS extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(DOOFS.class.getResource("StartingPage.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("DOOFS!");
+
+        //Make Sure to Change Directory to Get Output....
         stage.getIcons().add(new Image("C:\\Academic Materials\\1-2\\CSE 108\\Project Part 2\\Project_Part_2\\doofs.png"));
         stage.setScene(scene);
         stage.show();

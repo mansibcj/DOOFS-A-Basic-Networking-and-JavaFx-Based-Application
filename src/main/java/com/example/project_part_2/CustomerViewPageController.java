@@ -119,6 +119,8 @@ public class CustomerViewPageController implements Initializable {
             scene =new Scene(root);
             stage.setScene(scene);
             stage.setTitle(":( Invalid Login");
+
+            //Make Sure to Change Directory to Get Output....
             stage.getIcons().add(new Image("C:\\Academic Materials\\1-2\\CSE 108\\Project Part 2\\Project_Part_2\\doofs.png"));
             stage.show();
             return;
@@ -135,6 +137,8 @@ public class CustomerViewPageController implements Initializable {
             scene =new Scene(root);
             stage.setScene(scene);
             stage.setTitle("Welcome to DOOFS!!!! Order As You Like! :)");
+
+            //Make Sure to Change Directory to Get Output....
             stage.getIcons().add(new Image("C:\\Academic Materials\\1-2\\CSE 108\\Project Part 2\\Project_Part_2\\doofs.png"));
             stage.show();
 
@@ -145,6 +149,8 @@ public class CustomerViewPageController implements Initializable {
             scene =new Scene(root);
             stage.setScene(scene);
             stage.setTitle(":( Invalid Login");
+
+            //Make Sure to Change Directory to Get Output....
             stage.getIcons().add(new Image("C:\\Academic Materials\\1-2\\CSE 108\\Project Part 2\\Project_Part_2\\doofs.png"));
             stage.show();
         }

@@ -88,6 +88,8 @@ public class RestaurantLogInController implements Initializable {
             stage = (Stage) ((Node) e.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setTitle("Invalid Login :( ...");
+
+            //Make Sure to Change Directory to Get Output....
             stage.getIcons().add(new Image("C:\\Academic Materials\\1-2\\CSE 108\\Project Part 2\\Project_Part_2\\doofs.png"));
             stage.setScene(scene);
             stage.show();
@@ -100,6 +102,8 @@ public class RestaurantLogInController implements Initializable {
         stage=(Stage)((Node)e.getSource()).getScene().getWindow();
         scene=new Scene(root);
         stage.setTitle("Login as customer...");
+
+        //Make Sure to Change Directory to Get Output....
         stage.getIcons().add(new Image("C:\\Academic Materials\\1-2\\CSE 108\\Project Part 2\\Project_Part_2\\doofs.png"));
         stage.setScene(scene);
         stage.show();
